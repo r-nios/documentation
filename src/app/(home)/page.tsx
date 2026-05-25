@@ -881,7 +881,7 @@ function OpenSource() {
             Read docs
           </Link>
           <a
-            href="https://github.com/"
+            href="https://github.com/r-nios/documentation"
             rel="noreferrer noopener"
             className={cn(
               buttonVariants({

@@ -29,7 +29,7 @@ export const linkItems: LinkItemType[] = [
   },
   {
     type: "icon",
-    url: "https://discord.gg/Cn3MRBkqxS",
+    url: "https://discord.gg/pqb4Xz5ash",
     label: "discord",
     text: "Discord",
     icon: (
@@ -89,7 +89,7 @@ export const linkItems: LinkItemType[] = [
   },
   {
     type: "icon",
-    url: "https://github.com/",
+    url: "https://github.com/r-nios/",
     label: "github",
     text: "Github",
     icon: (
