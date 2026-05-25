@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://r-nios.in"),
   title: {
     default: "r-NIOS Documentation",
-    template: "%s | R-NIOS",
+    template: "%s | r-NIOS",
   },
   description:
     "Community-driven NIOS documentation covering admissions, examinations, results, certificates, and student services.",
