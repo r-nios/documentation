@@ -1,0 +1,328 @@
+---
+title: Confirmation Status
+description: Learn how to track your admission status, understand common status messages, and know what happens after submitting your application.
+icon: MailWarning
+---
+
+import { Card, Cards } from "fumadocs-ui/components/card";
+import { Callout } from "fumadocs-ui/components/callout";
+import { Steps, Step } from "fumadocs-ui/components/steps";
+import {
+  CheckCircleIcon,
+  ClockIcon,
+  AlertTriangleIcon,
+  SearchIcon,
+  FileCheckIcon,
+  MailWarningIcon,
+  Building2Icon,
+} from "lucide-react";
+
+# Confirmation Status [toc]
+
+After submitting your admission application and successfully paying the admission fee, your application undergoes verification and approval before admission is confirmed.
+
+This page explains how admission verification works, how to check your admission status, and what different status messages mean.
+
+## How to Check Admission Status
+
+NIOS provides multiple ways to check the current status of an admission application.
+
+### Option 1 — Admission Status Portal
+
+You can directly check your admission status using:
+
+- Registered Email Address
+- Reference Number
+- Enrollment Number
+
+<Cards>
+  <Card
+    title="Check Admission Status"
+    icon={<SearchIcon className="text-blue-300" />}
+    href="https://sdmis.nios.ac.in/registration/check-admission-status"
+  >
+    Check the latest admission status using your email address, reference
+    number, or enrollment number.
+  </Card>
+</Cards>
+
+### Option 2 — Student Dashboard
+
+Learners can also log in to their NIOS dashboard to view:
+
+- Admission status
+- Verification remarks
+- Enrollment details
+- Learner services
+- Notifications and updates
+
+<Cards>
+  <Card
+    title="Student Dashboard"
+    icon={<FileCheckIcon className="text-green-300" />}
+    href="https://sdmis.nios.ac.in/auth"
+  >
+    Access your learner dashboard and admission details.
+  </Card>
+</Cards>
+
+<Callout type="info">
+  Admission status can be checked either through the Admission Status Portal or
+  from the learner dashboard after logging in.
+</Callout>
+
+## What Happens After Submission?
+
+Once your application is submitted and payment is successfully completed, it goes through multiple stages of verification and approval before admission is confirmed.
+
+<Steps>
+  <Step>
+    **Application Submission**
+
+    Your application, uploaded documents, and payment details are submitted
+    through the NIOS admission portal.
+
+  </Step>
+
+  <Step>
+    **Regional Centre Verification**
+
+    The application is forwarded to the concerned NIOS Regional Centre (RC) for
+    verification.
+
+    The Regional Centre reviews:
+
+    - Personal details
+    - Eligibility requirements
+    - Uploaded documents
+    - Subject selections
+    - Supporting certificates
+
+  </Step>
+
+  <Step>
+    **Correction Request (If Required)**
+
+    If any discrepancy, missing document, mismatch, or verification issue is
+    found, the application may be returned for correction.
+
+    Learners are generally notified through the admission portal and may also
+    receive communication through their registered contact details.
+
+  </Step>
+
+  <Step>
+    **Regional Centre Approval**
+
+    If all documents and information are found satisfactory, the Regional Centre
+    verifies the application and forwards it for further processing.
+
+  </Step>
+
+  <Step>
+    **NIOS Headquarters Review**
+
+    The verified application is forwarded to the NIOS Headquarters (SSS
+    Department) for final scrutiny and approval.
+
+  </Step>
+
+  <Step>
+    **Admission Confirmation**
+
+    Once approved by the competent authority, the admission is confirmed and
+    learner services become available.
+
+  </Step>
+</Steps>
+
+<Callout type="info">
+  Admission approval generally involves verification by the concerned Regional
+  Centre followed by final approval at NIOS Headquarters (SSS Department).
+</Callout>
+
+## Common Admission Status Messages
+
+### Submitted
+
+Your application has been successfully submitted and is awaiting verification.
+
+### Under Verification
+
+The Regional Centre is reviewing your application and uploaded documents.
+
+### Correction Required
+
+One or more details or documents require correction before verification can be completed.
+
+### Verified by Regional Centre
+
+The Regional Centre has successfully verified the application and forwarded it to NIOS Headquarters for further processing.
+
+### Forwarded to Headquarters
+
+The application has been forwarded to the NIOS Headquarters (SSS Department) for final scrutiny and approval.
+
+### Admission Confirmed
+
+The admission has been approved and learner services are available.
+
+### Rejected
+
+The application could not be approved due to eligibility issues, document problems, or other reasons.
+
+<Callout type="warning">
+  A rejection does not always mean permanent ineligibility. Carefully review the
+  reason provided and follow the instructions issued by NIOS.
+</Callout>
+
+## Admission Confirmed — What's Next?
+
+Once admission is confirmed:
+
+- Learner records become active.
+- Study materials become available.
+- Academic services can be accessed.
+- PCP and Study Centre information becomes available (where applicable).
+- Examination-related services become available according to NIOS rules.
+
+<Cards>
+  <Card
+    title="Study Materials"
+    icon={<FileCheckIcon className="text-green-300" />}
+    href="/docs/academics/study-materials"
+  >
+    Access books, PDFs, online materials, and examination resources.
+  </Card>
+
+  <Card
+    title="Study Centres & Academic Support"
+    icon={<Building2Icon className="text-blue-300" />}
+    href="/docs/academics/study-centres-academic-support"
+  >
+    Learn about Study Centres, PCPs, and learner support services.
+  </Card>
+</Cards>
+
+## Correction Required
+
+Applications may be returned for correction if:
+
+- Documents are blurry or unreadable.
+- Wrong documents were uploaded.
+- Name mismatch exists across documents.
+- Date of birth mismatch is found.
+- Educational qualification proof is missing.
+- Supporting certificates are incomplete.
+
+<Callout type="idea">
+  Respond to correction requests as soon as possible to avoid delays in
+  admission approval.
+</Callout>
+
+## How Long Does Verification Take?
+
+Verification time may vary depending on:
+
+- Admission volume.
+- Document quality.
+- Regional Centre workload.
+- Additional verification requirements.
+
+<Callout type="info">
+  There is no fixed processing time applicable to every application. Some
+  applications may be processed faster than others.
+</Callout>
+
+## Common Questions
+
+### My payment was successful but the status has not changed.
+
+Payment confirmation and admission verification are separate processes. Your application may still be awaiting verification.
+
+### My application shows "Correction Required".
+
+Review the correction remarks carefully and upload the required corrections through the prescribed process.
+
+### My admission has been confirmed. What should I do next?
+
+After admission confirmation:
+
+1. Verify your subject selections.
+2. Access study materials.
+3. Contact your Study Centre (if applicable).
+4. Begin academic preparation.
+
+### My application was rejected.
+
+Review the reason provided by NIOS and determine whether corrective action or a fresh application is required.
+
+## Common Mistakes to Avoid
+
+<Cards>
+  <Card
+    title="Ignoring Correction Requests"
+    icon={<AlertTriangleIcon className="text-red-300" />}
+  >
+    Delayed corrections may affect admission processing.
+  </Card>
+
+<Card
+  title="Poor Document Uploads"
+  icon={<AlertTriangleIcon className="text-yellow-300" />}
+>
+  Blurry or incomplete uploads often cause verification issues.
+</Card>
+
+<Card
+  title="Incorrect Personal Details"
+  icon={<AlertTriangleIcon className="text-orange-300" />}
+>
+  Ensure names, dates of birth, and other details match official documents.
+</Card>
+
+  <Card
+    title="Checking Too Frequently"
+    icon={<ClockIcon className="text-blue-300" />}
+  >
+    Verification may take time depending on workload and application volume.
+  </Card>
+</Cards>
+
+## Related Resources
+
+<Cards>
+  <Card
+    title="Application Process"
+    icon={<SearchIcon className="text-blue-300" />}
+    href="/docs/admission/application"
+  >
+    Learn how the admission process works.
+  </Card>
+
+<Card
+  title="Required Documents"
+  icon={<FileCheckIcon className="text-green-300" />}
+  href="/docs/admission/required-documents"
+>
+  Review document requirements and upload guidelines.
+</Card>
+
+<Card
+  title="Admission Streams"
+  icon={<CheckCircleIcon className="text-orange-300" />}
+  href="/docs/admission/streams"
+>
+  Understand the different admission streams available in NIOS.
+</Card>
+
+  <Card
+    title="Step-by-Step Admission Guides"
+    icon={<MailWarningIcon className="text-purple-300" />}
+    href="/docs/admission/guides"
+  >
+    Follow detailed admission walkthroughs for each stream.
+  </Card>
+</Cards>
+
+---

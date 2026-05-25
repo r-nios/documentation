@@ -1,0 +1,24 @@
+{
+  "title": "Getting Started",
+  "description": "Understand NIOS basics and eligibility",
+  "root": true,
+  "icon": "Building",
+  "pages": [
+    "---Introduction---",
+    "index",
+    "---Guide---",
+    "suitability",
+    "eligibility",
+    "programmes",
+    "comparison",
+    "myths",
+    "---References---",
+    "notifications",
+    "prospectus",
+    "official_links",
+    "regional_centres",
+    "studycentres",
+    "recognition",
+    "contacts"
+  ]
+}

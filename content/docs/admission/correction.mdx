@@ -1,0 +1,228 @@
+---
+title: Correction Window
+description: Learn how NIOS handles admission corrections and discrepancy notifications during the admission verification process.
+icon: CircleAlert
+---
+
+import { Card, Cards } from "fumadocs-ui/components/card";
+import { Callout } from "fumadocs-ui/components/callout";
+import { Steps, Step } from "fumadocs-ui/components/steps";
+import {
+  CircleAlertIcon,
+  BellIcon,
+  FileCheckIcon,
+  AlertTriangleIcon,
+  CheckCircleIcon,
+  SearchIcon,
+} from "lucide-react";
+
+# Admission Corrections [toc]
+
+During admission verification, NIOS may identify discrepancies in the information or documents submitted by a learner. In such cases, the application may be returned for correction before admission approval can be granted.
+
+Unlike some examination processes, NIOS generally does not open a separate public correction window for admission applications. Corrections are usually requested individually when discrepancies are found during verification.
+
+## How Corrections Work
+
+After admission submission and fee payment:
+
+<Steps>
+  <Step>
+    **Application Verification**
+
+    The concerned Regional Centre reviews the application, documents, and
+    admission details.
+
+  </Step>
+
+  <Step>
+    **Discrepancy Identified**
+
+    If any issue is found, such as missing documents, mismatched information, or
+    incorrect uploads, the application may be marked for correction.
+
+  </Step>
+
+  <Step>
+    **Notification Issued**
+
+    A correction notification is generally issued through the SDMIS portal.
+
+  </Step>
+
+  <Step>
+    **Learner Submits Corrections**
+
+    The learner reviews the remarks and submits the required corrections.
+
+  </Step>
+
+  <Step>
+    **Re-Verification**
+
+    The corrected application is reviewed again by the Regional Centre.
+
+  </Step>
+
+  <Step>
+    **Further Processing**
+
+    Once verified, the application is forwarded for further approval.
+
+  </Step>
+</Steps>
+
+## Where Are Correction Requests Sent?
+
+Correction requests are generally communicated through the NIOS SDMIS portal.
+
+Learners should regularly monitor:
+
+- SDMIS Dashboard
+- Admission Status Portal
+- Registered Email Address (where applicable)
+- Notifications displayed in the learner account
+
+<Callout type="warning">
+  NIOS generally does not provide a separate admission correction window for all
+  learners. Correction requests are usually issued individually when
+  discrepancies are identified during verification.
+</Callout>
+
+## Common Reasons for Correction Requests
+
+<Cards>
+  <Card
+    title="Unreadable Documents"
+    icon={<AlertTriangleIcon className="text-red-300" />}
+  >
+    Blurry, cropped, or low-quality document uploads.
+  </Card>
+
+<Card
+  title="Name Mismatch"
+  icon={<AlertTriangleIcon className="text-orange-300" />}
+>
+  Name entered during admission does not match supporting documents.
+</Card>
+
+<Card
+  title="Date of Birth Issues"
+  icon={<AlertTriangleIcon className="text-yellow-300" />}
+>
+  Date of birth mismatch between admission details and supporting records.
+</Card>
+
+  <Card
+    title="Missing Documents"
+    icon={<AlertTriangleIcon className="text-purple-300" />}
+  >
+    Required documents were not uploaded or are incomplete.
+  </Card>
+</Cards>
+
+## What Should You Do If a Correction Is Requested?
+
+If a correction request is received:
+
+1. Carefully read the remarks provided by NIOS.
+2. Identify the specific issue requiring correction.
+3. Upload the required document or corrected information.
+4. Verify all details before resubmitting.
+5. Monitor the portal for further updates.
+
+<Callout type="tip">
+  Respond to correction requests as soon as possible to avoid delays in
+  admission verification and approval.
+</Callout>
+
+## How to Check for Correction Requests
+
+<Cards>
+  <Card
+    title="Admission Status"
+    icon={<SearchIcon className="text-blue-300" />}
+    href="/docs/admission/confirmation-status"
+  >
+    Learn how to track admission verification and status updates.
+  </Card>
+
+  <Card
+    title="Required Documents"
+    icon={<FileCheckIcon className="text-green-300" />}
+    href="/docs/admission/required-documents"
+  >
+    Review document requirements and upload guidelines.
+  </Card>
+</Cards>
+
+## After Corrections Are Submitted
+
+Once corrections are submitted:
+
+- The application returns to the verification process.
+- Documents are reviewed again.
+- Additional clarification may be requested if necessary.
+- The application may then be approved and forwarded for further processing.
+
+## Common Mistakes to Avoid
+
+<Cards>
+  <Card
+    title="Ignoring Notifications"
+    icon={<BellIcon className="text-red-300" />}
+  >
+    Regularly check your SDMIS dashboard for updates and correction requests.
+  </Card>
+
+<Card
+  title="Uploading the Wrong Document"
+  icon={<AlertTriangleIcon className="text-orange-300" />}
+>
+  Ensure the requested document is uploaded in the correct category.
+</Card>
+
+<Card
+  title="Incomplete Corrections"
+  icon={<AlertTriangleIcon className="text-yellow-300" />}
+>
+  Resolve all issues mentioned in the correction remarks before resubmitting.
+</Card>
+
+  <Card
+    title="Delaying Corrections"
+    icon={<CircleAlertIcon className="text-purple-300" />}
+  >
+    Delayed responses may extend admission processing time.
+  </Card>
+</Cards>
+
+## Related Resources
+
+<Cards>
+  <Card
+    title="Confirmation Status"
+    icon={<CheckCircleIcon className="text-blue-300" />}
+    href="/docs/admission/confirmation-status"
+  >
+    Understand admission verification and status tracking.
+  </Card>
+
+<Card
+  title="Required Documents"
+  icon={<FileCheckIcon className="text-green-300" />}
+  href="/docs/admission/required-documents"
+>
+  Review document requirements and common upload issues.
+</Card>
+
+  <Card
+    title="Application Process"
+    icon={<SearchIcon className="text-orange-300" />}
+    href="/docs/admission/application"
+  >
+    Learn how admission applications are processed.
+  </Card>
+</Cards>
+
+---

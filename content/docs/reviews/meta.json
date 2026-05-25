@@ -1,0 +1,20 @@
+{
+  "title": "Reviews",
+  "description": "Student experiences and opinions",
+  "root": true,
+  "icon": "Cuboid",
+  "pages": [
+    "---Introduction---",
+    "index",
+    "---Feedback & Opinions---",
+    "common-complaints",
+    "honest-review-of-nios",
+    "pros-cons-of-nios",
+    "---Community Voices---",
+    "student-experiences",
+    "success-stories",
+    "---Share Your Experience---",
+    "how-to-submit-review",
+    "guidelines"
+  ]
+}

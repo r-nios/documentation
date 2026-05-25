@@ -1,0 +1,19 @@
+{
+  "title": "Academics",
+  "description": "Subjects, syllabus, study resources",
+  "root": true,
+  "icon": "Shapes",
+  "pages": [
+    "---Introduction---",
+    "index",
+    "---Curriculum---",
+    "subjects-syllabus",
+    "practical-subjects",
+    "---Learning Resources---",
+    "study-materials",
+    "---Academic Activities---",
+    "pcp",
+    "---Support & Centres---",
+    "support"
+  ]
+}

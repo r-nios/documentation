@@ -1,0 +1,24 @@
+{
+  "title": "Admission",
+  "description": "How to apply and enroll",
+  "root": true,
+  "icon": "PanelsTopLeft",
+  "pages": [
+    "---Introduction---",
+    "index",
+    "---Process---",
+    "streams",
+    "application",
+    "---Requirements---",
+    "eligibility",
+    "subjects",
+    "documents",
+    "fees",
+    "---After Applying---",
+    "confirmation",
+    "correction",
+    "mistakes",
+    "---Miscellaneous---",
+    "ode"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Fees",
+  "description": "Fee structure and payments",
+  "root": true,
+  "icon": "IndianRupee",
+  "pages": [
+    "---Introduction---",
+    "index",
+    "---Fee Structure---",
+    "admission-fees",
+    "exam-fees",
+    "practical-fees",
+    "fa-fees",
+    "---Penalties & Refunds---",
+    "late-fees-penalties",
+    "refund-policy"
+  ]
+}

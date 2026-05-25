@@ -1,0 +1,24 @@
+{
+  "title": "Exams & Assessments",
+  "description": "Exams, TMA, results, certification",
+  "root": true,
+  "icon": "Pencil",
+  "pages": [
+    "---Introduction---",
+    "index",
+    "---Exam Process---",
+    "types-of-exams",
+    "exam-registration",
+    "hall-ticket-exam-centre",
+    "---Assessments---",
+    "formative-assessment",
+    "practical-exams-assessment",
+    "tutor-marked-assignments-tma",
+    "---Results & Certification---",
+    "results-grading-system",
+    "certificates",
+    "---Corrections & Improvement---",
+    "rechecking-re-evaluation",
+    "improvement-reappear-exams"
+  ]
+}

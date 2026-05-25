@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import "fumadocs-ui/css/neutral.css";
+@import "fumadocs-ui/css/preset.css";
+
+@layer utilities {
+  .animate-marquee {
+    animation: marquee var(--duration, 40s) linear infinite;
+  }
+
+  .animate-marquee-vertical {
+    animation: marquee-vertical var(--duration, 40s) linear infinite;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap, 1rem)));
+  }
+}
+
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - var(--gap, 1rem)));
+  }
+}
+
+.admission {
+  --color-fd-primary: var(--admission-color);
+}
+
+.academics {
+  --color-fd-primary: var(--academics-color);
+}
+
+.framework {
+  --color-fd-primary: var(--framework-color);
+}
+
+:root {
+  --academics-color: hsl(250, 80%, 54%);
+  --framework-color: hsl(41, 100%, 40%);
+  --admission-color: hsl(217, 100%, 58%);
+}
+
+.dark {
+  --academics-color: hsl(250 100% 80%);
+  --framework-color: #fff383;
+  --admission-color: #a9ceff;
+}

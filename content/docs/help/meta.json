@@ -1,0 +1,19 @@
+{
+  "title": "Help",
+  "description": "eServices, FAQs, issues, and support",
+  "root": true,
+  "icon": "Terminal",
+  "pages": [
+    "---Introduction---",
+    "index",
+    "---Support Services---",
+    "e-services-guide",
+    "contact-support",
+    "---Guides & Information---",
+    "student-portal-guide",
+    "learner-responsibilities",
+    "---Help Resources---",
+    "faqs",
+    "common-problems-fixes"
+  ]
+}
