@@ -38,26 +38,22 @@ export default function NotFound() {
         </div>
 
         {/* Content */}
-        <div className="max-w-lg text-center lg:text-left">
+        <div className="max-w-lg -mt-8 sm:-mt-4 md:mt-0 text-center lg:text-left">
           <div className="mb-4 inline-flex rounded-full border border-pink-500/20 bg-pink-500/10 px-4 py-1 text-sm text-pink-300">
             Error 404
           </div>
-
           <h1 className="bg-gradient-to-r from-pink-300 via-fuchsia-300 to-blue-300 bg-clip-text text-6xl font-extrabold tracking-tight text-transparent md:text-7xl">
             Page Not Found
           </h1>
-
           <p className="mt-6 text-lg text-neutral-400">
             I checked all my notes...
             <br />
             but I still couldn't find this page.
           </p>
-
           <p className="mt-3 text-neutral-500">
             The document may have been moved, renamed, or hasn't been written
             yet.
           </p>
-
           <div className="mt-8 flex flex-wrap justify-center gap-3 lg:justify-start">
             <Link
               href="/docs"
